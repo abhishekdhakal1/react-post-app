@@ -1,0 +1,40 @@
+.form {
+  width: 20rem;
+  max-height: 20%;
+  border-radius: 5px;
+  display: grid;
+  gap: 1rem;
+  font-size: 1.3rem;
+  background-color: #9090fb;
+}
+textarea {
+  resize: none;
+  border-radius: 6px;
+  background-color: beige;
+  margin: 5px;
+}
+span {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+}
+button {
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px;
+  cursor: pointer;
+}
+.sub {
+  background-color: rgb(43, 43, 128);
+  color: rgb(249, 244, 242);
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+}
+.can {
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  border: none;
+}

@@ -1,0 +1,9 @@
+.list {
+  list-style: none;
+  max-width: 50rem;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+}
