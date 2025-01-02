@@ -1,5 +1,6 @@
 import classes from "./Modal.module.css";
-function Modal({ children, onExecute }) {
+function Modal(props) {
+  const { onExecute, children } = props;
   return (
     <>
       <div className={classes.backdrop} onClick={onExecute} />

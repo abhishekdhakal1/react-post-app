@@ -1,5 +1,7 @@
 import classes from "./Post.module.css";
-function Post({ name, body }) {
+function Post(props) {
+  const { name, body } = props;
+
   return (
     <div>
       <div className={classes.post}>

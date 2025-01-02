@@ -1,6 +1,8 @@
 import classes from "./NewPost.module.css";
 import { useState } from "react";
-function NewPost({ onCancel, onAddPost }) {
+function NewPost(props) {
+  const { onCancel, onAddPost } = props;
+
   const [nam, setNam] = useState("");
   const [body, setBody] = useState("");
 

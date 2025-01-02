@@ -4,7 +4,9 @@ import classes from "./PostList.module.css";
 import Modal from "./Modal";
 import { useState } from "react";
 
-function PostList({ isPosting, onStopPosting }) {
+function PostList(props) {
+  const { isPosting, onStopPosting } = props;
+
   const [posts, setPosts] = useState([]);
 
   function addPostHandler(postData) {
